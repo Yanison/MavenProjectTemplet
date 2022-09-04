@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- // 위의 형식은 아래의 내용을 해석하기 위한 cdn 링크 같은거임. // -->
+
+				
+<mapper namespace="프로젝트의_Mapper_경로">
+
+    <resultMap id="resultMapObj" type="프로젝트의_DTO_경로"></resultMap>
+
+	<select id="쿼리메소드이름" resultMap="resultMapObj">
+		
+	</select>
+
+</mapper>
